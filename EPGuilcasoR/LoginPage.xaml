@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EPGuilcasoR.PassworPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="CadetBlue">
+            <Label Text="Curso onlone UTI" BackgroundColor="CornflowerBlue" HorizontalTextAlignment="Center" TextColor="White" FontSize="21"/>
+            <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png"
+                   HorizontalOptions="Fill" HeightRequest="100" Aspect="Fill" />
+            <Entry x:Name="txtUser" Placeholder="Ingrese us usario"/>
+            <Entry x:Name="txtPassword" Placeholder="Ingrese la comntraseña" IsPassword="True"/>
+            <Button x:Name="btnPaginas" Text="Ir a la suma" Clicked="btnPaginas_Clicked" BackgroundColor="CornflowerBlue" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

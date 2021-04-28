@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EPGuilcasoR.MainPage">
+
+    <StackLayout BackgroundColor="CadetBlue">
+        <Label Text="Bienbenido"  BackgroundColor="CornflowerBlue" HorizontalTextAlignment="Center" TextColor="White" FontSize="21" x:Name="lblUser"/>
+        <Entry x:Name="txtNombre" Placeholder="Nombre y Apellido"/>
+        <Entry x:Name="txtDato1" Placeholder="Pago Inicial" Keyboard="Numeric" />
+        <Entry x:Name="txtDato2" Placeholder="Pago Cuotas" Keyboard="Numeric"/>
+        <Entry x:Name="txtDatoR"/>
+        <Entry x:Name="txtPorciento"/>
+        <Entry x:Name="txtRespuesta" IsEnabled="False"/>
+        <Button x:Name="btnResultado" Text="Resultado" Clicked="btnResultado_Clicked_1" BackgroundColor="CornflowerBlue"/>
+        <Button x:Name="btnSiguiente" Text="Ir a ventana de resta" Clicked="btnSiguiente_Clicked" BackgroundColor="CornflowerBlue"/>
+        <Label x:Name="lblResultado" Text="Pago : " HorizontalOptions="Center" FontSize="40" />
+        
+
+    </StackLayout>
+
+</ContentPage>
